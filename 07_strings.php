@@ -161,7 +161,7 @@ echo strchr("Hello world!","world");
 echo "<br>";
 
 #29 strpbrk() => find the char and return the rest of string
-echo strpbrk("Hello world!","oH");   # returns firt char in string from both the char and it is case-sensitive 
+echo strpbrk("Hello world!","oH");   # returns first char in string from both the char and it is case-sensitive 
 echo "<br>";
 echo "<br>";
 
