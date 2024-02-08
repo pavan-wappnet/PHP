@@ -37,6 +37,17 @@ $date1 = date_create('2024-02-15');
 $date2 = date_create('2024-10-06');
 $diff = date_diff($date1, $date2);
 echo $diff->format("%R%a days");
+echo "<br>";
+echo "<br>";
+echo $diff->format("Months: %m, Days: %d.");
+echo "<br>";
+echo "<br>";
+
+#date_modify()
+$date=date_create("08-02-2024");
+date_modify($date,"+15 days");
+echo date_format($date,"d-m-Y");
+echo "<br>";
 
 
 
