@@ -34,7 +34,7 @@ function customError2($errno, $errstr) {
   error_log("Error: [$errno] $errstr",1,
   "noreply@sfolkar.com","From: webmaster@example.com");
 }
-set_error_handler("customError2",E_USER_WARNING);
+set_error_handler("customError2",E_USER_WARNING);               #E_USER_WARNING is a error report level
 
 $test=2;
 if ($test>=1) {

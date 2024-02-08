@@ -28,10 +28,10 @@ if(isset($_FILES['image'])){
     $file_type = $_FILES['image']['type'];
 
     if(move_uploaded_file($file_tmp,"upload-images/". $file_name)){
-        echo "Successfully Uploaded";
+        echo "File Successfully Uploaded";
     }
     else{
-        echo "Can't upload file!";
+        echo "Can not upload file!";
     }
 }
 

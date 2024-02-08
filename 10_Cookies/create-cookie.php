@@ -2,7 +2,7 @@
 $cookie_name = "user";
 $cookie_value = "This is a cookie";
 
-setcookie($cookie_name, $cookie_value, time() + (300), "/");
+setcookie($cookie_name, $cookie_value, time() + (500), "/");
 ?>
 
 <!DOCTYPE html>

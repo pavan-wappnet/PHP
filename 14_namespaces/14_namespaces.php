@@ -1,4 +1,7 @@
 <?php
+
+#we use namespace for using same name for multiple class
+
 require '14_first.php';
 require '14_second.php';
 

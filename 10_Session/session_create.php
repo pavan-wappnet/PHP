@@ -2,7 +2,7 @@
 
 session_start();
 
-$_SESSION["favcolor"] = 'oragne';
+$_SESSION["favcolor"] = 'orange';
 
 echo "Session variable is set."
 ?>

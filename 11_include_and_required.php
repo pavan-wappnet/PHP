@@ -31,16 +31,19 @@
     </style>
 </head>
 <body>
-    <?php include '11_Include and Require/header.php'?>                         
+    <?php include_once '11_Include and Require/header.php'?>
+    <?php include_once '11_Include and Require/header.php'?>               
+    <?php #require_once '11_Include and Require/header.php'?>               
+
     <main>
         <h2>Main Content Area</h2>
         <p>This is the main content area of the website.</p>
     </main>
 
-    <?php include '11_Include and Require/footer.php'?>
+    <?php include '11_Include and Require/footer.php'
+    #we can use require also and for situtation like multiple copies we can use include_once
+    ?>
 </body>
 </html>
 
 
-
-#we can use require also and for situtation like multiple copies we can use include_once

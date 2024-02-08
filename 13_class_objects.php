@@ -13,37 +13,62 @@ class Cricket {
     public $role;
     public $runs;
 
+    #we can initialize the functions using construct method without adding differnt methods of set function
+    
+    #construct method
+    function __construct($name, $role, $runs){
+        $this->name = $name;
+        $this->role = $role;
+        $this->runs = $runs;
+    }
+
+    /*
+    #set value function
     function set_name($name) {
         $this->name = $name;
-    }
-    function get_name() {
-        return $this->name;
     }
     function set_role($role) {
         $this->role = $role;
     }
-    function get_role() {
-        return $this->role;
-    }
     function set_runs($runs) {
         $this->runs = $runs;
     }
+    */
+
+    
+    #get value functions
+    function get_name() {
+        return $this->name;
+    }
+    function get_role() {
+        return $this->role;
+    }
+    
     function get_runs() {
         return $this->runs;
     }
 }
 
-$player = new Cricket();
+
+#player1
+$player = new Cricket('Virat Kohli', 'Batsmen', '26,532');
+
+#use this calling method for set function
+/*
 $player->set_name ('Virat Kohli');
 $player->set_role ('Batsmen');
 $player->set_runs ('26,532');
+*/
 
+#player2 
+$player2 = new Cricket('Rohit Sharma', 'Opening Batsmen', '18,239');
 
-$player2 = new Cricket();
+#use this calling method for set function
+/*
 $player2->set_name('Rohit Sharma');
 $player2->set_role ('Opening Batsmen');
 $player2->set_runs ('18,239');
-
+*/
 
 echo "Name: ". $player->get_name();
 echo "<br>";

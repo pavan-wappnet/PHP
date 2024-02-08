@@ -81,7 +81,7 @@ print_r($egame);
 
 echo "<br><br>";
 
-#array_shift() and array_unshift() (reove and delete elements at first pos)
+#array_shift() and array_unshift() (remove and delete elements at first pos)
 $egame = array("BGMI", "CR", "FIFA");
 array_unshift($egame, "CODM");
 print_r($egame);
@@ -165,6 +165,8 @@ echo "<br><br>";
 $games = array("BGMI", "CR", "CODM", "FIFA", "BGMI", "FIFA");
 print_r(array_unique($games));
 echo "<br><br>";
+echo "<br><br>";
+
 
 #array_intersect() (returns the common values from 2 arrays)
 $a1 = array("car","bike", "sports-car", "sports-bike", "watch");

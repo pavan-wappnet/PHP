@@ -4,19 +4,19 @@
 //Example of Polymorphism
 class animal{
     public function makesound(){
-        echo "<br>animal makesound <br>";
+        echo "<br>animal make sound <br>";
     }
 }
 
 class dog extends animal{
     public function makesound(){ //method override from the superclass
-        echo "<br>dog makesound<br>";
+        echo "<br>dog make sound<br>";
     }
 }
 
 class cat extends animal{
     public function makesound(){
-        echo "<br>cat makesound<br>";
+        echo "<br>cat make sound<br>";
     }
 }
 //Creating new object 

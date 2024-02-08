@@ -165,7 +165,7 @@ echo strpbrk("Hello world!","oH");   # returns first char in string from both th
 echo "<br>";
 echo "<br>";
 
-#30 wordwrap =>wrap to new line when reachers to specific lenghth
+#30 wordwrap =>wrap to new line when reachers to specific length
 $str = "An example of a long word is: Supercalifragulistic";
 echo wordwrap($str,15,"<br>");
 
